@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ASimplifiedCircleClass
+namespace TheRectangleClass
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ASimplifiedCircleClass c = new ASimplifiedCircleClass();
-            Console.WriteLine(c.ToString());
+            Rectangle re = new Rectangle();
+            Console.WriteLine(re.ToString());
             Console.ReadLine();
         }
     }

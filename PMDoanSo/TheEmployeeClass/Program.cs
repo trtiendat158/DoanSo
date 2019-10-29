@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ASimplifiedCircleClass
+namespace TheEmployeeClass
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ASimplifiedCircleClass c = new ASimplifiedCircleClass();
-            Console.WriteLine(c.ToString());
+            Employee e = new Employee();
+            Console.WriteLine(e.ToString());
             Console.ReadLine();
         }
     }

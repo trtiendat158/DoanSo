@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BTCircle
+namespace ASimplifiedCircleClass
 {
-    class Circle
+    class ASimplifiedCircleClass
     {
         private double Radius;
-        public Circle()
+        public ASimplifiedCircleClass()
         {
             Radius = 1.0;
         }
-        public Circle(double Radius )
+        public ASimplifiedCircleClass(double Radius )
         {
             this.Radius = Radius;
         }
